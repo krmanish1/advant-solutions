@@ -16,7 +16,7 @@ function Newsletter() {
                     <div className="mt-8 sm:w-full md:max-w-2xl xl:mt-0 xl:ml-8">
                         <form className="sm:flex gap-5 w-full" id="revue-form" target="_blank">
                             <input type="email" className="w-full rounded-md border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-0" placeholder="Enter your email" />
-                            <button type="submit" className="inline-block w-auto text-center min-w-[150px] px-1 py-4 text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-blue-600 to-blue-500 hover:bg-gradient-to-b dark:shadow-blue-900 shadow-blue-200 hover:shadow-2xl hover:shadow-blue-400 hover:-tranneutral-y-px ">Subscribe</button>
+                            <button type="submit" className="inline-block mt-4 md:mt-0 text-center w-full md:w-[150px] px-1 py-4 text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-blue-600 to-blue-500 hover:bg-gradient-to-b dark:shadow-blue-900 shadow-blue-200 hover:shadow-2xl hover:shadow-blue-400 hover:-tranneutral-y-px ">Subscribe</button>
                         </form>
                         {/* <p className="mt-3 text-sm text-indigo-200">We will never send any spam emails. Promise.</p> */}
                     </div>

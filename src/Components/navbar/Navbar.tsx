@@ -146,7 +146,7 @@ export default function Navbar() {
 
     return (
         <div className=" flex text-sm w-[90%] py-2 relative">
-            <section className="flex w-full justify-between items-center">
+            <section className="flex w-full justify-between items-center ml-5">
 
 
 
@@ -248,7 +248,7 @@ export default function Navbar() {
 
                 <Menu
                     onClick={openSideMenu}
-                    className="cursor-pointer text-4xl lg:hidden text-white"
+                    className="cursor-pointer text-4xl lg:hidden text-gray-700"
                 />
             </section>
 

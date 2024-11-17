@@ -23,7 +23,7 @@ const featuresData = [
 
 const Features = () => {
     return (
-        <section className="relative py-16 bg-white overflow-hidden">
+        <section className="relative py-16 bg-white overflow-hidden w-full">
             {/* Gradient Overlay for Fading Border Effect */}
             <div className="absolute inset-0 pointer-events-none z-10">
                 <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-white opacity-75"></div>
@@ -31,18 +31,18 @@ const Features = () => {
             </div>
 
             {/* Header Section */}
-            <div className="text-center max-w-2xl mx-auto mb-10 relative z-20">
+            <div className="text-center w-[90%] mx-auto mb-10 relative z-20">
                 {/* <p className="text-blue-500  font-bold text-xl uppercase">services</p> */}
-                <h2 className="mt-2 text-5xl font-bold text-gray-900 leading-[62px]">
+                <h2 className="mt-2 text-2xl md:text-4xl lg:text-5xl font-bold text-gray-900 lg:leading-[62px]">
                     We are development experts on all technologies
                 </h2>
-                <p className="mt-4 text-gray-500 text-xl">
+                <p className="mt-4 text-gray-500 text-[18px] md:text-xl">
                     We provide tailored solutions that enhance your digital presence, ensuring your website and applications are user-friendly, efficient, and designed to meet your specific business needs.
                 </p>
             </div>
 
             {/* Features Grid with Fading Border */}
-            <div className="relative z-20 max-w-6xl mx-auto">
+            <div className="relative z-20 w-[90%] mx-auto">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 bg-white   overflow-hidden"
                 >
                     {featuresData.map((feature, index) => (
@@ -66,7 +66,7 @@ const Features = () => {
                                 {feature.title}
                             </h3>
                             {/* Description */}
-                            <p className="text-gray-600 text-sm flex-grow">
+                            <p className="text-gray-600 text-[16px] flex-grow">
                                 {feature.description}
                             </p>
                         </div>

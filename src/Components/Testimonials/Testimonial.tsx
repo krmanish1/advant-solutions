@@ -8,18 +8,18 @@ function Testimonial() {
                 {/* <h2 className="w-full mb-6 font-sans lg:text-5xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                     What our great customers say
                 </h2> */}
-                <h2 className="w-full mb-6 lg:text-5xl lg:leading-[62px] font-bold  tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                <h2 className="w-full mb-6 lg:text-5xl lg:leading-[62px] font-bold  tracking-tight text-gray-900 text-center text-2xl md:text-4xl md:mx-auto">
                     What our
                     <span className="bg-gradient-to-l from-blue-500 to-blue-800 bg-clip-text text-transparent"> great customers
                     </span>
                     &nbsp;say
                 </h2>
-                <p className="text-base text-gray-500 md:text-lg">
+                <p className="text-base text-center text-gray-500 md:text-lg">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                     accusantium doloremque rem aperiam, eaque ipsa quae.
                 </p>
             </div>
-            <div className=" w-[90%] ">
+            <div className=" w-[100%] lg:w-[90%] ">
 
                 <ul role="list"
                     className="mx-auto  grid w-full grid-cols-1 gap-6 sm:gap-8 lg:max-w-none lg:grid-cols-3">

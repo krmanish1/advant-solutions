@@ -7,7 +7,7 @@ import AnimatedGridPattern from '../ui/animated-grid-pattern'
 function HeroSection() {
     return (
 
-        <div className="relative flex w-full items-center justify-center overflow-hidden bg-background py-28">
+        <div className="relative flex w-full items-center justify-center overflow-hidden bg-background md:py-24 lg:py-28">
             <div className="flex z-10 justify-center flex-col items-center dark:bg-gray-800 ">
                 <div className="text-center max-w-3xl mx-6">
                     <div className=" flex min-h-24 items-center justify-center">
@@ -22,7 +22,7 @@ function HeroSection() {
                             </AnimatedShinyText>
                         </div>
                     </div>
-                    <h1 className="my-3  !leading-[62px] text-3xl font-bold tracking-tight text-gray-800 md:text-5xl dark:text-gray-100">
+                    <h1 className="my-3  md:!leading-[62px] text-3xl font-bold tracking-tight text-gray-800 md:text-5xl dark:text-gray-100">
                         {/* Customized services to fit your bussiness needs */}
                         Tailored Technology Solutions for Your Business Success
                     </h1>
@@ -31,11 +31,11 @@ function HeroSection() {
                             We offer custom software solutions that are crafted to meet your unique business needs. Our team is dedicated to providing innovative, scalable, and secure applications to help you thrive in a competitive market.
                         </p>
                     </div>
-                    <div className="flex flex-col items-center justify-center gap-5 mt-6 md:flex-row"><a
-                        className="inline-block w-auto text-center min-w-[200px] px-6 py-4 text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-blue-600 to-blue-500 hover:bg-gradient-to-b dark:shadow-blue-900 shadow-blue-200 hover:shadow-2xl hover:shadow-blue-400 hover:-tranneutral-y-px "
+                    <div className="flex w-full flex-col items-center justify-center gap-5 mt-6 md:flex-row"><a
+                        className="inline-block  text-center w-full md:w-[240px] px-4 py-4 text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-blue-600 to-blue-500 hover:bg-gradient-to-b dark:shadow-blue-900 shadow-blue-200 hover:shadow-2xl hover:shadow-blue-400 hover:-tranneutral-y-px "
                         href="">Schedule A Consultation
                     </a>
-                        <a className="inline-block w-auto text-center min-w-[200px] px-6 py-4 text-white transition-all bg-gray-700 dark:bg-white dark:text-gray-800 rounded-md shadow-xl sm:w-auto hover:bg-gray-900 hover:text-white shadow-neutral-300 dark:shadow-neutral-700 hover:shadow-2xl hover:shadow-neutral-400 hover:-tranneutral-y-px"
+                        <a className="inline-block text-center w-full md:w-[200px] px-6 py-4 text-white transition-all bg-gray-700 dark:bg-white dark:text-gray-800 rounded-md shadow-xl sm:w-auto hover:bg-gray-900 hover:text-white shadow-neutral-300 dark:shadow-neutral-700 hover:shadow-2xl hover:shadow-neutral-400 hover:-tranneutral-y-px"
                             href="">See Our Services
                         </a>
                     </div>

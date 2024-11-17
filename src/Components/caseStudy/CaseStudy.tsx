@@ -3,26 +3,26 @@ import React from 'react'
 
 function CaseStudy() {
     return (
-        <div className="px-4 py-16 mx-auto flex items-center justify-center flex-col gap-8 sm:max-w-xl md:max-w-full lg:w-full  lg:py-20">
+        <div className="px-4 py-16 mx-auto flex items-center justify-center flex-col gap-8 w-full md:max-w-full lg:w-full  lg:py-20">
             <div className="w-full mb-10 md:mx-auto sm:text-center lg:max-w-3xl md:mb-12">
 
                 {/* <h2 className="w-full mb-6 font-sans lg:text-5xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                     Discover how we had helped world class companies in the past
                 </h2> */}
 
-                <h2 className="w-full mb-6 lg:text-5xl lg:leading-[62px] font-bold  tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                <h2 className="w-full mb-6 lg:text-5xl lg:leading-[62px] font-bold  tracking-tight text-gray-900 text-2xl text-center md:text-4xl md:mx-auto">
                     Discover how we had
                     <span className="bg-gradient-to-l from-blue-500 to-blue-800 bg-clip-text text-transparent">
                         &nbsp;helped world class companies
                     </span>
                     &nbsp;in the past
                 </h2>
-                <p className="text-base text-gray-500 md:text-lg">
+                <p className="text-base text-center text-gray-500 md:text-lg">
                     Explore our success stories and see how our solutions have driven innovation, efficiency, and growth for top global brands.
                 </p>
             </div>
             <div className="grid gap-8 w-[95%] row-gap-0 place-content-center place-items-center lg:grid-cols-3">
-                <div className="p-4 max-w-md">
+                <div className=" w-full">
                     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
 
                         <div className='h-48 w-full bg-gradient-to-tr from-indigo-500 to-purple-500 px-10'>
@@ -68,7 +68,7 @@ function CaseStudy() {
                         </div>
                     </div>
                 </div>
-                <div className="p-4 max-w-md">
+                <div className=" w-full">
                     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                         <div className='h-48 w-full bg-gradient-to-tr from-orange-400 to-pink-400 px-10'>
 
@@ -112,7 +112,7 @@ function CaseStudy() {
                         </div>
                     </div>
                 </div>
-                <div className="p-4 max-w-md">
+                <div className=" w-full">
                     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                         <div className='h-48 w-full bg-gradient-to-tr from-teal-400 to-green-400 px-10'>
 
